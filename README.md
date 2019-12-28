@@ -32,6 +32,7 @@ Contributions are highly appreciated. Please send me pull request. We want reall
   - [Prediction](#prediction)
   - [Planning](#planning)
   - [Control](#control)
+  - [End-to-End](#end2end)
   - [Misc](#misc)
 - [Algorithms](#algorithms)
 - [Systems](#systems)
@@ -66,6 +67,7 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 * [autoware](https://www.autoware.ai/) - The original Autoware project built on ROS 1. Launched as a research and development platform for autonomous driving technology.
 * [openpilot](https://comma.ai/) - Openpilot is an open source driver agent. Use the iphone to control the car, which provides adaptive cruise control (ACC) and lane keeping assist (LKAS).
 
+
 <a name="library" />
 
 #### Library
@@ -94,6 +96,8 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 * [LISA](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) - 7855 annotations on 6610 frames.  
 * [Tsinghua-Tencent 100K](https://cg.cs.tsinghua.edu.cn/traffic-sign/) - 100000 images containing 30000 traffic-sign instances.  
 * [German Traffic Sign [Images]](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) - More than 50,000 images and 40 classes of traffic signs.
+
+
 
 <a name="simulators" /> 
 
@@ -125,7 +129,6 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 #### Overview
 * [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](#) - 2019  IEEE Transactions on Intelligent Vehicles
 * [Self-Driving Cars: A Survey](#) - 2019 
-* [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316) - 2016 
 * [Towards Fully Autonomous Driving: Systems and Algorithms](#) - 2011 IEEE Intelligent Vehicles Symposium
 
 <a name="hd-map" />
@@ -179,6 +182,11 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 #### Control
 * [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](#) - A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles.
 
+<a name="end2end" />
+
+#### End-to-End
+* [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316) - 2016 NVIDIA
+
 <a name="misc" />
 
 #### Misc
@@ -188,7 +196,6 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 * [Ways to think about cars](http://ben-evans.com/benedictevans/2015/7/27/ways-to-think-about-cars) - Awesome blog post by [a16z](http://a16z.com/)'s [Benedict Evans](https://twitter.com/BenedictEvans) on electric cars, on-demand car services, and self-driving cars.
 * [The Third Transportation Revolution](https://medium.com/@johnzimmer/the-third-transportation-revolution-27860f05fa91#.ga97y7w86) - Awesome blog post by [John Zimmer](https://twitter.com/johnzimmer) on [Lyft](https://www.lyft.com/)'s vision for self-driving cars. *Spoiler alert*, John predicts self-driving cars will account for the majority of Lyft rides within 5 years. And by 2025, private car ownership will all-but end in major U.S. cities.
 * [Cars and second order consequences](http://ben-evans.com/benedictevans/2017/3/20/cars-and-second-order-consequences) - [Benedict Evans](https://twitter.com/BenedictEvans) on the impact of electric and autonomy on cars and beyond.
-
 
 
 <a name="algorithms" />
