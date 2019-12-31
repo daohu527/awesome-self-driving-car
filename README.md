@@ -141,7 +141,7 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 
 #### Localization
 **Survey**    
-* [A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications](#) - 2012
+* [A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications](#) - 2018
 * [Simultaneous localization and mapping: A survey of current trends in autonomous driving](#) - 2017
 
 **Details**
