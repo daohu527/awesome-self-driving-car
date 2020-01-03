@@ -89,6 +89,7 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 * [Washington DC's Lidar Data](https://aws.amazon.com/blogs/publicsector/lidar-data-for-washington-dc-is-available-as-an-aws-public-dataset/) - Lidar point cloud of the entire Washington DC area is made available by the District of Columbia’s Office of the Chief Technology Officer (OCTO).
 * [Apolloscape](http://apolloscape.auto/scene.html#) - Apolloscape provides images with 10x higher resolution and pixel-level annotation. And also Provides multiple levels of scene complexity.
 * [nuScenes](https://www.nuscenes.org/overview) - The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving provided by nuTonomy-Aptiv.
+* [Waymo Open Dataset](https://waymo.com/open/) - The Waymo Open Dataset is comprised of high-resolution sensor data collected by Waymo self-driving cars in a wide variety of conditions. 
 
 
 #### Traffic Sign
@@ -156,6 +157,7 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 * [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf) - State-of-the-art survey on computer vision-related problems datasets and methods for self-driving cars.
 
 **Object Detection**  
+* [Object Detection in 20 Years: A Survey](#) - 2019
 * [Object Detection With Deep Learning: A Review](#) - 
 * [50 Years of object recognition: Directions forward](#) - 
 * [Deep Learning for Generic Object Detection: A Survey](#) - 
