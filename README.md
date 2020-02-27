@@ -128,7 +128,7 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 <a name="overview" />
 
 #### Overview
-**[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda. "**A Survey of Autonomous Driving: Common Practices and Emerging Technologies**." arXiv:1906.05113 (2019). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:
+**[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda. "**A Survey of Autonomous Driving: Common Practices and Emerging Technologies**." arXiv:1906.05113 arXiv:1906.05113v2 (2020). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:
 * [Self-Driving Cars: A Survey](#) - 2019 
 * [Towards Fully Autonomous Driving: Systems and Algorithms](#) - 2011 IEEE Intelligent Vehicles Symposium
 
