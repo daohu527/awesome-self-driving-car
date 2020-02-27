@@ -25,6 +25,7 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 - [Papers & Blogs](#papers-blogs)
   - [Overview](#overview)
   - [HD Map](#hd-map)
+  - [Simulation & Data generation](#simulation)
   - [Simulation](#simulation)
   - [Localization](#localization)
   - [Calibration](#calibration)
@@ -53,7 +54,6 @@ Contributions are highly appreciated. Please send me pull request. We want reall
   - [Drive by wire](#drive-by-wire)
 - [Big Players](#big-players)
 - [Legislation](#legislation)
-- [TODO](#todo)
 
 
 <a name="opensource" />
@@ -137,6 +137,10 @@ Contributions are highly appreciated. Please send me pull request. We want reall
 #### HD Map
 
 * [Highiy Efficient HD Map Creation: Acceierating Mapping Process with GPUs](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) - 2017 An introduction PPT
+
+<a name="simulation" />
+
+#### Simulation & Data generation
 
 <a name="localization" />
 
@@ -315,10 +319,3 @@ If I have seen further it is by standing on ye sholders of Giants.
 * **Europe** -
 
 
-
-<a name="todo" />
-
-## TODO
-* The introduction should be limited to one sentence or two sentences, or nothing.
-* The readme file should be divided into several files, perhaps not very urgent.
-* Another format to display the readme file.
