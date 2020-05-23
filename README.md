@@ -1,32 +1,19 @@
 # Awesome Self-Driving Cars [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-> We wanted flying cars, instead we got 140 characters.              - *Peter Thiel* 
-
-> We want self-driving cars, and we want them with an awesome list.  - Not *Peter Thiel*
-
 
 
 ## Introduction
 A curated list of all awesome things related to self-driving car.
 
 
-
-## Contributing
-Contributions are highly appreciated. Please send me pull request. We want really **awesome** stuff. Please feel free to contact me if you have any questions.
-
-
-
 ## Table of Contents
-- [Opensource](#opensource)
+- [Opensource code](#opensource)
   - [Fullstack](#fullstack)
   - [Library](#library)
-- [Datasets & Benchmarks](#datasets)
-- [Simulators](#simulators)
 - [Courses](#courses)
 - [Papers & Blogs](#papers-blogs)
   - [Overview](#overview)
   - [HD Map](#hd-map)
   - [Simulation & Data generation](#simulation)
-  - [Simulation](#simulation)
   - [Localization](#localization)
   - [Calibration](#calibration)
   - [Perception](#perception)
@@ -34,24 +21,41 @@ Contributions are highly appreciated. Please send me pull request. We want reall
   - [Planning](#planning)
   - [Control](#control)
   - [End-to-End](#end2end)
-  - [Misc](#misc)
+  - [Misc](#misc)  
+- [Datasets & Benchmarks](#datasets)
 - [Algorithms](#algorithms)
+  - [Overview](#algorithms_overview)
+  - [HD Map](#algorithms_hd-map)
+  - [Simulation & Data generation](#algorithms_simulation)
+  - [Localization](#algorithms_localization)
+  - [Calibration](#algorithms_calibration)
+  - [Perception](#algorithms_perception)
+  - [Prediction](#algorithms_prediction)
+  - [Planning](#algorithms_planning)
+  - [Control](#algorithms_control)
+  - [End-to-End](#algorithms_end2end)
+  - [Misc](#algorithms_misc)
 - [Systems](#systems)
-  - [RTOS](#rtos)
-  - [Message Queue](#message-queue)
-  - [Monitor](#monitor)
-  - [Security](#security)
-  - [V2X](#v2x)
+  - [RTOS](#rtos)  
+- [Cloud service](#cloud_service)
+  - [Simulation Service](#simulation_service)
+  - [HD Map Service](#hd_map_service)
+  - [Data Service](#data_service)
+  - [Monitor Service](#monitor_service)
+  - [OTA](#ota)  
 - [Hardware](#hardware)
   - [Computing Unit](#computing-unit)
-  - [GPS/IMU](#gps-imu)
-  - [Camera](#camera)
-  - [LiDAR](#lidar)
-  - [RADAR](#radar)
-  - [Ultrasonic Sensor](#ultrasonic-sensor)
+  - [sensors](#sensors)
+    - [GPS/IMU](#gps-imu)
+    - [Camera](#camera)
+    - [LiDAR](#lidar)
+    - [RADAR](#radar)
+    - [Ultrasonic Sensor](#ultrasonic-sensor)
+  - [CAN card](#can_card)
+  - [Drive by wire](#drive-by-wire) 
+  - [V2X](#v2x)  
   - [HMI Device](#hmi-device)
   - [Black Box](#black-box)
-  - [Drive by wire](#drive-by-wire)
 - [Big Players](#big-players)
 - [Legislation](#legislation)
 
@@ -76,45 +80,10 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="library" />
 
 #### Library
-* [Point Cloud Library](http://pointclouds.org/) - Point Cloud Library (PCL) is a standalone, large open project for 2D / 3D imagery and point cloud processing. Widely used to process laser point cloud data.
 * [ROS](http://www.ros.org/) - The Robot Operating System (ROS) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.
 * [OpenCV library](https://opencv.org/) - OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
+* [Point Cloud Library](http://pointclouds.org/) - Point Cloud Library (PCL) is a standalone, large open project for 2D / 3D imagery and point cloud processing. Widely used to process laser point cloud data.
 * [TensorFlow](https://www.tensorflow.org/) - TensorFlow is an open source software library for numerical computation using data flow graphs. Used for automatic driving perception and prediction.
-
-
-
-<a name="datasets" /> 
-
-
-## Datasets & Benchmarks
-* [KITTI Vision Benchmark Suite [Images]](http://www.cvlibs.net/datasets/kitti/) - Large vision benchmark dataset with [objection detection](http://www.cvlibs.net/datasets/kitti/eval_object.php) evaluation training/testing images and leaderboard on cars and pedestrians.
-* [Cityscapes](https://www.cityscapes-dataset.com/) - Semantic, instance-wise, dense pixel annotations of 30 classes.
-* [comma.ai's Driving Dataset [Videos]](https://github.com/commaai/research) - Seven and a quarter hours (~ 80 GB) of largely highway driving. With this dataset, comma.ai's founder [George Hotz](https://twitter.com/realgeorgehotz) trained a self-driving car [all by himself](https://www.bloomberg.com/features/2015-george-hotz-self-driving-car/).
-* [Udacity's Driving Dataset [Videos]](https://github.com/udacity/self-driving-car/tree/master/datasets) - Eight hours (over 280 GB) of driving data collected for their [open source self-driving car challenges](https://www.udacity.com/self-driving-car). Udacity also provides convenient [scripts](https://github.com/rwightman/udacity-driving-reader) to port the data.
-* [Washington DC's Lidar Data](https://aws.amazon.com/blogs/publicsector/lidar-data-for-washington-dc-is-available-as-an-aws-public-dataset/) - Lidar point cloud of the entire Washington DC area is made available by the District of Columbia’s Office of the Chief Technology Officer (OCTO).
-* [Apolloscape](http://apolloscape.auto/scene.html#) - Apolloscape provides images with 10x higher resolution and pixel-level annotation. And also Provides multiple levels of scene complexity.
-* [nuScenes](https://www.nuscenes.org/overview) - The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving provided by nuTonomy-Aptiv.
-* [Waymo Open Dataset](https://waymo.com/open/) - The Waymo Open Dataset is comprised of high-resolution sensor data collected by Waymo self-driving cars in a wide variety of conditions. 
-
-
-#### Traffic Sign
-* [STSD](https://www.cvl.isy.liu.se/research/datasets/traffic-signs-dataset/) - More than 20 000 images with 20% labeled, Contains 3488 traffic signs.  
-* [LISA](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) - 7855 annotations on 6610 frames.  
-* [Tsinghua-Tencent 100K](https://cg.cs.tsinghua.edu.cn/traffic-sign/) - 100000 images containing 30000 traffic-sign instances.  
-* [German Traffic Sign [Images]](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) - More than 50,000 images and 40 classes of traffic signs.
-
-
-
-<a name="simulators" /> 
-
-## Simulators
-* [Udacity's Self-Driving Car Simulator](https://github.com/udacity/self-driving-car-sim) - This simulator is built for Udacity's Self-Driving Car Nanodegree to teach students how to train cars how to navigate road courses using deep learning. It is used for the project of [Behavioral Cloning](https://github.com/udacity/CarND-Behavioral-Cloning-P3).
-* [Microsoft's AirSim](https://github.com/Microsoft/AirSim) - An open-source and cross platform simulator built for drones and other vehicles. AirSim is designed as a platform for AI research to experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles. 
-* [MIT's Moral Machine](http://moralmachine.mit.edu/) - Moral machine provides a *"platform for 1) building a crowd-sourced picture of human opinion on how machines should make decisions when faced with moral dilemmas, and 2) crowd-sourcing assembly and discussion of potential scenarios of moral consequence"*. If you are a fan of the [trolley problem](https://en.wikipedia.org/wiki/Trolley_problem), you can't miss this.
-* [MIT's Google Self-Driving Car Simulator](https://scratch.mit.edu/projects/108721238/) - Self-driving car simulated completely by visual programming language [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)).
-* [Carla](http://carla.org/) - CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems.
-* [Lgsvl](https://www.lgsvlsimulator.com/) - The LGSVL Simulator is a simulator that facilitates testing and development of autonomous driving software systems. The LGSVL simulator is developed by the Advanced Platform Lab at the LG Electronics America R&D Center, formerly the LG Silicon Valley Lab.
-
 
 
 <a name="courses" />
@@ -209,6 +178,26 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [Cars and second order consequences](http://ben-evans.com/benedictevans/2017/3/20/cars-and-second-order-consequences) - [Benedict Evans](https://twitter.com/BenedictEvans) on the impact of electric and autonomy on cars and beyond.
 
 
+<a name="datasets" /> 
+
+## Datasets & Benchmarks
+* [KITTI Vision Benchmark Suite [Images]](http://www.cvlibs.net/datasets/kitti/) - Large vision benchmark dataset with [objection detection](http://www.cvlibs.net/datasets/kitti/eval_object.php) evaluation training/testing images and leaderboard on cars and pedestrians.
+* [Cityscapes](https://www.cityscapes-dataset.com/) - Semantic, instance-wise, dense pixel annotations of 30 classes.
+* [comma.ai's Driving Dataset [Videos]](https://github.com/commaai/research) - Seven and a quarter hours (~ 80 GB) of largely highway driving. With this dataset, comma.ai's founder [George Hotz](https://twitter.com/realgeorgehotz) trained a self-driving car [all by himself](https://www.bloomberg.com/features/2015-george-hotz-self-driving-car/).
+* [Udacity's Driving Dataset [Videos]](https://github.com/udacity/self-driving-car/tree/master/datasets) - Eight hours (over 280 GB) of driving data collected for their [open source self-driving car challenges](https://www.udacity.com/self-driving-car). Udacity also provides convenient [scripts](https://github.com/rwightman/udacity-driving-reader) to port the data.
+* [Washington DC's Lidar Data](https://aws.amazon.com/blogs/publicsector/lidar-data-for-washington-dc-is-available-as-an-aws-public-dataset/) - Lidar point cloud of the entire Washington DC area is made available by the District of Columbia’s Office of the Chief Technology Officer (OCTO).
+* [Apolloscape](http://apolloscape.auto/scene.html#) - Apolloscape provides images with 10x higher resolution and pixel-level annotation. And also Provides multiple levels of scene complexity.
+* [nuScenes](https://www.nuscenes.org/overview) - The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving provided by nuTonomy-Aptiv.
+* [Waymo Open Dataset](https://waymo.com/open/) - The Waymo Open Dataset is comprised of high-resolution sensor data collected by Waymo self-driving cars in a wide variety of conditions. 
+
+
+#### Traffic Sign
+* [STSD](https://www.cvl.isy.liu.se/research/datasets/traffic-signs-dataset/) - More than 20 000 images with 20% labeled, Contains 3488 traffic signs.  
+* [LISA](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) - 7855 annotations on 6610 frames.  
+* [Tsinghua-Tencent 100K](https://cg.cs.tsinghua.edu.cn/traffic-sign/) - 100000 images containing 30000 traffic-sign instances.  
+* [German Traffic Sign [Images]](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) - More than 50,000 images and 40 classes of traffic signs.
+
+
 <a name="algorithms" />
 
 ## Algorithms
@@ -221,30 +210,40 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### RTOS
 
-> A real-time operating system (RTOS) is any operating system (OS) intended to serve real-time applications that process data as it comes in, typically without buffer delays. Processing time requirements (including any OS delay) are measured in tenths of seconds or shorter increments of time. A real time system is a time bound system which has well defined fixed time constraints. Processing must be done within the defined constraints or the system will fail. 
 
-[RT linux](https://rt.wiki.kernel.org/index.php/Main_Page) - For now you can use the path to make the Linux kernel a real-time operating system.
+<a name="cloud_service" />
 
-[thread affinity](https://en.wikipedia.org/wiki/Processor_affinity) - Processor affinity, or CPU pinning, enables the binding and unbinding of a process or a thread to a central processing unit (CPU) or a range of CPUs, so that the process or thread will execute only on the designated CPU or CPUs rather than any CPU. This can be viewed as a modification of the native central queue scheduling algorithm in a symmetric multiprocessing operating system.
+## Cloud service
 
-[interrupt binding](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html/Realtime_Tuning_Guide/sect-Realtime_Tuning_Guide-General_System_Tuning-Interrupt_and_Process_Binding.html) - Realtime environments need to minimize or eliminate latency when responding to various events. Ideally, interrupts (IRQs) and user processes can be isolated from one another on different dedicated CPUs.
+<a name="simulation_service" /> 
+
+#### Simulation Service
+* [Udacity's Self-Driving Car Simulator](https://github.com/udacity/self-driving-car-sim) - This simulator is built for Udacity's Self-Driving Car Nanodegree to teach students how to train cars how to navigate road courses using deep learning. It is used for the project of [Behavioral Cloning](https://github.com/udacity/CarND-Behavioral-Cloning-P3).
+* [Microsoft's AirSim](https://github.com/Microsoft/AirSim) - An open-source and cross platform simulator built for drones and other vehicles. AirSim is designed as a platform for AI research to experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles. 
+* [MIT's Moral Machine](http://moralmachine.mit.edu/) - Moral machine provides a *"platform for 1) building a crowd-sourced picture of human opinion on how machines should make decisions when faced with moral dilemmas, and 2) crowd-sourcing assembly and discussion of potential scenarios of moral consequence"*. If you are a fan of the [trolley problem](https://en.wikipedia.org/wiki/Trolley_problem), you can't miss this.
+* [MIT's Google Self-Driving Car Simulator](https://scratch.mit.edu/projects/108721238/) - Self-driving car simulated completely by visual programming language [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)).
+* [Carla](http://carla.org/) - CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems.
+* [Lgsvl](https://www.lgsvlsimulator.com/) - The LGSVL Simulator is a simulator that facilitates testing and development of autonomous driving software systems. The LGSVL simulator is developed by the Advanced Platform Lab at the LG Electronics America R&D Center, formerly the LG Silicon Valley Lab.
 
 
-<a name="message-queue" />
+<a name="hd_map_service" /> 
 
-#### Message Queue
+#### HD Map Service
 
-<a name="monitor" />
 
-#### Monitor
+<a name="data_service" /> 
 
-<a name="security" />
+#### Data Service
 
-#### Security
 
-<a name="v2x" />
+<a name="monitor_service" /> 
 
-#### V2X
+#### Monitor Service
+
+
+<a name="ota" /> 
+
+#### OTA
 
 
 
@@ -256,25 +255,44 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Computing Unit
 
+
+<a name="sensors" />
+
+#### Sensors
+
+
+
 <a name="gps-imu" />
 
-#### GPS/IMU
+###### GPS/IMU
 
 <a name="camera" />
 
-#### Camera
+###### Camera
 
 <a name="lidar" />
 
-#### LiDAR
+###### LiDAR
 
 <a name="radar" />
 
-#### RADAR
+###### RADAR
 
 <a name="ultrasonic-sensor" />
 
-#### Ultrasonic Sensor
+###### Ultrasonic Sensor
+
+<a name="can_card" />
+
+#### CAN card
+
+<a name="drive-by-wire" />
+
+#### Drive by wire
+
+<a name="v2x" />
+
+#### V2X
 
 <a name="hmi-device" />
 
@@ -284,9 +302,6 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Black Box
 
-<a name="drive-by-wire" />
-
-#### Drive by wire
 
 
 
@@ -299,12 +314,11 @@ If I have seen further it is by standing on ye sholders of Giants.
                                                                 - Isaac Newton
 ```
 
-|                              |                                          |                                                 |                                  |
-|------------------------------|------------------------------------------|-------------------------------------------------|----------------------------------|
-| [comma.ai](comma.ai/)        | [Waymo](https://waymo.com/)              | [Cruise Automation](https://www.getcruise.com/) | [drive.ai](drve.ai/)             |
-| [Ford](http://www.ford.com/) | [Udacity](https://www.udacity.com/)      | [GM](https://www.gm.com/)                       | [nuTonomy](http://nutonomy.com/) |
-| [NIO](http://www.nio.io/)    | [Tesla](https://www.tesla.com/autopilot) | [NVIDIA](http://www.nvidia.com/page/home.html)  | [Otto](http://ot.to/)            |
-| [Uber](http://uber.com)      |                                          |                                                 |                                  |
+| [Waymo](https://waymo.com/)                    | [Cruise Automation](https://www.getcruise.com/) | [Pony.ai](https://www.pony.ai/)      | [Baidu](https://apollo.auto/)           | [Nuro](https://nuro.ai/)               |
+|------------------------------------------------|-------------------------------------------------|--------------------------------------|-----------------------------------------|----------------------------------------|
+| [Zoox](https://zoox.com/)                      | [Lyft](https://www.lyft.com/)                   | [Autox](https://www.autox.ai/)       | [Mercedes Benz](https://www.mbusa.com/) | [Aurora](https://aurora.tech/)         |
+| [Apple](https://www.apple.com)                 | [NVIDIA](http://www.nvidia.com/page/home.html)  | [AImotive](https://aimotive.com/)    | [WeRide](https://www.weride.ai/)        | [Drive.ai](drve.ai/)                   |
+| [SF Motors/Seres](https://www.driveseres.com/) | [Nullmax](https://nullmax.ai/)                  | [Nissan](https://www.nissanusa.com/) | [SAIC](https://saicic.com/)             | [Qualcomm ](https://www.qualcomm.com/) |
 
 
 
