@@ -102,15 +102,16 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="overview" />
 
 #### Overview
-**[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda.**A Survey of Autonomous Driving: Common Practices and Emerging Technologies**." arXiv:1906.05113 arXiv:1906.05113v2 (2020). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda. **A Survey of Autonomous Driving: Common Practices and Emerging Technologies**." arXiv:1906.05113 arXiv:1906.05113v2 (2020). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
-**[2]** Claudine Badue, Rânik Guidolini, Raphael Vivacqua Carneiro etc.**Self-Driving Cars: A Survey**." arXiv:1901.04407v2 (2019). [[pdf]](https://arxiv.org/pdf/1901.04407.pdf) **(Very comprehensive introduction)** :star::star::star::star:  
+**[2]** Claudine Badue, Rânik Guidolini, Raphael Vivacqua Carneiro etc. **Self-Driving Cars: A Survey**." arXiv:1901.04407v2 (2019). [[pdf]](https://arxiv.org/pdf/1901.04407.pdf) **(Very comprehensive introduction)** :star::star::star::star:  
 
-**[3]** Jesse Levinson, Jake Askeland, Jan Becker etc.**Towards Fully Autonomous Driving: Systems and Algorithms**." DOI: 10.1109/IVS.2011.5940562 (2011). [[pdf]](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[3]** Jesse Levinson, Jake Askeland, Jan Becker etc. **Towards Fully Autonomous Driving: Systems and Algorithms**." DOI: 10.1109/IVS.2011.5940562 (2011). [[pdf]](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
-**[4]** Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu **A Survey of Deep Learning Techniques for Autonomous Driving**." arXiv:1910.07738v2 (2020). [[pdf]](https://arxiv.org/pdf/1910.07738.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star: 
+**[4]** Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu. **A Survey of Deep Learning Techniques for Autonomous Driving**." arXiv:1910.07738v2 (2020). [[pdf]](https://arxiv.org/pdf/1910.07738.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
 <a name="hd-map" />
+
 
 #### HD Map
 
@@ -124,7 +125,8 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Localization
 **Survey**    
-* [A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications](#) - 2018
+**[1]** Sampo Kuutti, Saber Fallah, Konstantinos Katsaros, Mehrdad Dianati, Francis Mccullough, Alexandros Mouzakitis **A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications**." 10.1109/JIOT.2018.2812300 (2017). [[pdf]](https://core.ac.uk/download/pdf/151395482.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+
 * [Simultaneous localization and mapping: A survey of current trends in autonomous driving](#) - 2017
 
 **Details**
