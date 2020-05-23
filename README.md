@@ -104,11 +104,12 @@ First, let's look at the technology stack for autonomous driving. In order to un
 #### Overview
 **[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda. **A Survey of Autonomous Driving: Common Practices and Emerging Technologies**." arXiv:1906.05113 arXiv:1906.05113v2 (2020). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
-**[2]** Claudine Badue, Rânik Guidolini, Raphael Vivacqua Carneiro etc. **Self-Driving Cars: A Survey**." arXiv:1901.04407v2 (2019). [[pdf]](https://arxiv.org/pdf/1901.04407.pdf) **(Very comprehensive introduction)** :star::star::star::star:  
+**[2]** Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu. **A Survey of Deep Learning Techniques for Autonomous Driving**." arXiv:1910.07738v2 (2020). [[pdf]](https://arxiv.org/pdf/1910.07738.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
-**[3]** Jesse Levinson, Jake Askeland, Jan Becker etc. **Towards Fully Autonomous Driving: Systems and Algorithms**." DOI: 10.1109/IVS.2011.5940562 (2011). [[pdf]](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[3]** Claudine Badue, Rânik Guidolini, Raphael Vivacqua Carneiro etc. **Self-Driving Cars: A Survey**." arXiv:1901.04407v2 (2019). [[pdf]](https://arxiv.org/pdf/1901.04407.pdf) **(Very comprehensive introduction)** :star::star::star::star:  
 
-**[4]** Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu. **A Survey of Deep Learning Techniques for Autonomous Driving**." arXiv:1910.07738v2 (2020). [[pdf]](https://arxiv.org/pdf/1910.07738.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[4]** Jesse Levinson, Jake Askeland, Jan Becker etc. **Towards Fully Autonomous Driving: Systems and Algorithms**." DOI: 10.1109/IVS.2011.5940562 (2011). [[pdf]](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+ 
 
 <a name="hd-map" />
 
@@ -123,13 +124,12 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 <a name="localization" />
 
-#### Localization
-**Survey**    
+#### Localization   
 **[1]** Sampo Kuutti, Saber Fallah, Konstantinos Katsaros, Mehrdad Dianati, Francis Mccullough, Alexandros Mouzakitis **A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications**." 10.1109/JIOT.2018.2812300 (2017). [[pdf]](https://core.ac.uk/download/pdf/151395482.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
 * [Simultaneous localization and mapping: A survey of current trends in autonomous driving](#) - 2017
 
-**Details**
+
 * [Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes](https://arxiv.org/abs/1711.05805) - Present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes by sensor fusion.
 * [Map-Based Precision Vehicle Localization in Urban Environments](http://www.roboticsproceedings.org/rss03/p16.pdf) - 
 * [Robust Vehicle Localization in Urban Environments Using Probabilistic Maps](http://driving.stanford.edu/papers/ICRA2010.pdf) -
@@ -137,16 +137,18 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="perception" />
 
 #### Perception
-**Survey**  
+
+###### Survey 
+
 * [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf) - State-of-the-art survey on computer vision-related problems datasets and methods for self-driving cars.
 
-**Object Detection**  
+###### Object Detection
 * [Object Detection in 20 Years: A Survey](#) - 2019
 * [Object Detection With Deep Learning: A Review](#) - 
 * [50 Years of object recognition: Directions forward](#) - 
 * [Deep Learning for Generic Object Detection: A Survey](#) - 
 
-**Lane Detection**  
+###### Lane Detection 
 * [Recent progress in road and lane detection: a survey](#) - 
 
 <a name="prediction" />
