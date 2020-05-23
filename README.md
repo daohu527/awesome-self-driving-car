@@ -116,7 +116,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### HD Map
 
-**[4]** ZENRIN Co.,Ltd **Highly Efficient HD Map Creation: Accelerating Mapping Process with GPUs** An introduction PPT (2017). [[pdf]](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[1]** ZENRIN Co.,Ltd **Highly Efficient HD Map Creation: Accelerating Mapping Process with GPUs** An introduction PPT (2017). [[pdf]](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
 
 <a name="simulation" />
@@ -155,6 +155,9 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="prediction" />
 
 #### Prediction
+
+**[1]** Florin Leon, Marius Gavrilescu. **A Review of Tracking, Prediction and Decision Making Methods for Autonomous Driving**  arXiv:1909.07707v1 (2019). [[pdf]](https://arxiv.org/pdf/1909.07707.pdf) **(Very very comprehensive review)** :star::star::star::star::star:  
+
 
 <a name="planning" />
 
