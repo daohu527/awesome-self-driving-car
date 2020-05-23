@@ -313,9 +313,8 @@ First, let's look at the technology stack for autonomous driving. In order to un
 If I have seen further it is by standing on ye sholders of Giants.
                                                                 - Isaac Newton
 ```
-| | | | | |
-| [Waymo](https://waymo.com/)                    | [Cruise Automation](https://www.getcruise.com/) | [Pony.ai](https://www.pony.ai/)      | [Baidu](https://apollo.auto/)           | [Nuro](https://nuro.ai/)               |
 |------------------------------------------------|-------------------------------------------------|--------------------------------------|-----------------------------------------|----------------------------------------|
+| [Waymo](https://waymo.com/)                    | [Cruise Automation](https://www.getcruise.com/) | [Pony.ai](https://www.pony.ai/)      | [Baidu](https://apollo.auto/)           | [Nuro](https://nuro.ai/)               |
 | [Zoox](https://zoox.com/)                      | [Lyft](https://www.lyft.com/)                   | [Autox](https://www.autox.ai/)       | [Mercedes Benz](https://www.mbusa.com/) | [Aurora](https://aurora.tech/)         |
 | [Apple](https://www.apple.com)                 | [NVIDIA](http://www.nvidia.com/page/home.html)  | [AImotive](https://aimotive.com/)    | [WeRide](https://www.weride.ai/)        | [Drive.ai](drve.ai/)                   |
 | [SF Motors/Seres](https://www.driveseres.com/) | [Nullmax](https://nullmax.ai/)                  | [Nissan](https://www.nissanusa.com/) | [SAIC](https://saicic.com/)             | [Qualcomm ](https://www.qualcomm.com/) |
