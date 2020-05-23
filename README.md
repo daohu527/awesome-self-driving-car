@@ -102,13 +102,13 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="overview" />
 
 #### Overview
-**[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda. **A Survey of Autonomous Driving: Common Practices and Emerging Technologies**." arXiv:1906.05113 arXiv:1906.05113v2 (2020). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda. **A Survey of Autonomous Driving: Common Practices and Emerging Technologies** arXiv:1906.05113 arXiv:1906.05113v2 (2020). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
-**[2]** Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu. **A Survey of Deep Learning Techniques for Autonomous Driving**." arXiv:1910.07738v2 (2020). [[pdf]](https://arxiv.org/pdf/1910.07738.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[2]** Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu. **A Survey of Deep Learning Techniques for Autonomous Driving** arXiv:1910.07738v2 (2020). [[pdf]](https://arxiv.org/pdf/1910.07738.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
-**[3]** Claudine Badue, Rânik Guidolini, Raphael Vivacqua Carneiro etc. **Self-Driving Cars: A Survey**." arXiv:1901.04407v2 (2019). [[pdf]](https://arxiv.org/pdf/1901.04407.pdf) **(Very comprehensive introduction)** :star::star::star::star:  
+**[3]** Claudine Badue, Rânik Guidolini, Raphael Vivacqua Carneiro etc. **Self-Driving Cars: A Survey** arXiv:1901.04407v2 (2019). [[pdf]](https://arxiv.org/pdf/1901.04407.pdf) **(Very comprehensive introduction)** :star::star::star::star:  
 
-**[4]** Jesse Levinson, Jake Askeland, Jan Becker etc. **Towards Fully Autonomous Driving: Systems and Algorithms**." DOI: 10.1109/IVS.2011.5940562 (2011). [[pdf]](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[4]** Jesse Levinson, Jake Askeland, Jan Becker etc. **Towards Fully Autonomous Driving: Systems and Algorithms** DOI: 10.1109/IVS.2011.5940562 (2011). [[pdf]](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
  
 
 <a name="hd-map" />
@@ -116,7 +116,8 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### HD Map
 
-* [Highiy Efficient HD Map Creation: Acceierating Mapping Process with GPUs](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) - 2017 An introduction PPT
+**[4]** ZENRIN Co.,Ltd **Highly Efficient HD Map Creation: Accelerating Mapping Process with GPUs** An introduction PPT (2017). [[pdf]](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+
 
 <a name="simulation" />
 
@@ -125,9 +126,9 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="localization" />
 
 #### Localization   
-**[1]** Sampo Kuutti, Saber Fallah, Konstantinos Katsaros, Mehrdad Dianati, Francis Mccullough, Alexandros Mouzakitis **A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications**." 10.1109/JIOT.2018.2812300 (2017). [[pdf]](https://core.ac.uk/download/pdf/151395482.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+**[1]** Sampo Kuutti, Saber Fallah, Konstantinos Katsaros, Mehrdad Dianati, Francis Mccullough, Alexandros Mouzakitis **A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications** 10.1109/JIOT.2018.2812300 (2017). [[pdf]](https://core.ac.uk/download/pdf/151395482.pdf) **(Very comprehensive survey)** :star::star::star::star::star:  
 
-* [Simultaneous localization and mapping: A survey of current trends in autonomous driving](#) - 2017
+**[2]** Guillaume Bresson, Zayed Alsayed, Li Yu, Sébastien Glaser **Simultaneous localization and mapping: A survey of current trends in autonomous driving** 10.1109/TIV.2017.2749181 (2017). [[pdf]](https://hal.archives-ouvertes.fr/hal-01615897/file/2017-simultaneous_localization_and_mapping_a_survey_of_current_trends_in_autonomous_driving.pdf) **(Very comprehensive survey)** :star::star::star::star::star: 
 
 
 * [Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes](https://arxiv.org/abs/1711.05805) - Present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes by sensor fusion.
