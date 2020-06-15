@@ -149,6 +149,10 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [50 Years of object recognition: Directions forward](#) - 
 * [Deep Learning for Generic Object Detection: A Survey](#) - 
 
+###### Object Tracking
+**[1]** Wenhan Luo, Junliang Xing, Anton Milan, Xiaoqin Zhang, Wei Liu, Xiaowei Zhao, Tae-Kyun Kim **Multiple Object Tracking: A Literature Review**  arXiv:1409.7618v4 (2017). [[pdf]](https://arxiv.org/pdf/1409.7618.pdf) **(Very comprehensive survey)** :star::star::star::star::star:  
+
+
 ###### Lane Detection 
 * [Recent progress in road and lane detection: a survey](#) - 
 
