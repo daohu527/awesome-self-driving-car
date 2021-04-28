@@ -163,6 +163,9 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [A COMPREHENSIVE REVIEW OF THE MULTI-SENSOR DATA FUSION ARCHITECTURES]()
 * [A Survey of Multisensor Fusion Techniques, Architectures and Methodologies]()
 
+###### Data Fusion
+* [multimodal perception](https://boschresearch.github.io/multimodalperception/)
+
 <a name="prediction" />
 
 #### Prediction
