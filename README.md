@@ -84,6 +84,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [OpenCV library](https://opencv.org/) - OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
 * [Point Cloud Library](http://pointclouds.org/) - Point Cloud Library (PCL) is a standalone, large open project for 2D / 3D imagery and point cloud processing. Widely used to process laser point cloud data.
 * [TensorFlow](https://www.tensorflow.org/) - TensorFlow is an open source software library for numerical computation using data flow graphs. Used for automatic driving perception and prediction.
+* [ompl](https://ompl.kavrakilab.org/) - The Open Motion Planning Library.
 
 
 <a name="courses" />
@@ -161,6 +162,9 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [A Review of Data Fusion Techniques]()
 * [A COMPREHENSIVE REVIEW OF THE MULTI-SENSOR DATA FUSION ARCHITECTURES]()
 * [A Survey of Multisensor Fusion Techniques, Architectures and Methodologies]()
+
+###### Data Fusion
+* [multimodal perception](https://boschresearch.github.io/multimodalperception/)
 
 <a name="prediction" />
 
