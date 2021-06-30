@@ -167,12 +167,12 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 * [Multisensor data fusion: A review of the state-of-the-art](#)
 * [A Review of Data Fusion Techniques](#)
-* [A COMPREHENSIVE REVIEW OF THE MULTI-SENSOR DATA FUSION ARCHITECTURES](#)
+* [A Comprehensive Review of The Multi-sensor Data Fusion Architectures](#)
 * [A Survey of Multisensor Fusion Techniques, Architectures and Methodologies](#)
 
 ###### Data Fusion
 
-* [multimodal perception](https://boschresearch.github.io/multimodalperception/)
+* [multimodal perception](https://boschresearch.github.io/multimodalperception/) - boschresearch's collection about datasets, detection and segmentation.
 
 <a name="prediction" />
 
@@ -184,8 +184,8 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Planning
 
-* [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/abs/1604.07446) - A Survey.
-* [A Review of Motion Planning Techniques for Automated Vehicles](#) - 
+* [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/abs/1604.07446) - Robotics 2016
+* [A Review of Motion Planning Techniques for Automated Vehicles](https://ieeexplore.ieee.org/document/7339478) - 2016 
 * [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/abs/1812.03079) - Waymo's paper about how to train a policy for autonomous driving via imitation learning that is robust enough to drive a real vehicle.
 * [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048) - A real-time motion planning system based on the Baidu Apollo (open source) autonomous driving platform.
 
