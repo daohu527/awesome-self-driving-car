@@ -143,6 +143,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 ###### Survey 
 
 * [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf) - CVPR 2017
+* [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges](https://boschresearch.github.io/multimodalperception/) - boschresearch's collection about datasets, detection and segmentation.
 
 ###### Object Detection
 
@@ -170,9 +171,6 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [A Comprehensive Review of The Multi-sensor Data Fusion Architectures](#)
 * [A Survey of Multisensor Fusion Techniques, Architectures and Methodologies](#)
 
-###### Data Fusion
-
-* [multimodal perception](https://boschresearch.github.io/multimodalperception/) - boschresearch's collection about datasets, detection and segmentation.
 
 <a name="prediction" />
 
