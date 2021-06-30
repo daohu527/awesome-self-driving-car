@@ -103,21 +103,18 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="overview" />
 
 #### Overview
-**[1]** Ekim Yurtsever, Jacob Lambert, Alexander Carballo, Kazuya Takeda. **A Survey of Autonomous Driving: Common Practices and Emerging Technologies** arXiv:1906.05113 arXiv:1906.05113v2 (2020). [[pdf]](https://arxiv.org/pdf/1906.05113.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
 
-**[2]** Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu. **A Survey of Deep Learning Techniques for Autonomous Driving** arXiv:1910.07738v2 (2020). [[pdf]](https://arxiv.org/pdf/1910.07738.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
-
-**[3]** Claudine Badue, Rânik Guidolini, Raphael Vivacqua Carneiro etc. **Self-Driving Cars: A Survey** arXiv:1901.04407v2 (2019). [[pdf]](https://arxiv.org/pdf/1901.04407.pdf) **(Very comprehensive introduction)** :star::star::star::star:  
-
-**[4]** Jesse Levinson, Jake Askeland, Jan Becker etc. **Towards Fully Autonomous Driving: Systems and Algorithms** DOI: 10.1109/IVS.2011.5940562 (2011). [[pdf]](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+* [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](https://arxiv.org/pdf/1906.05113.pdf) - 2020  
+* [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/pdf/1910.07738.pdf) - 2020
+* [Self-Driving Cars: A Survey](https://arxiv.org/pdf/1901.04407.pdf) - 2019
+* [Towards Fully Autonomous Driving: Systems and Algorithms](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) - 2011
  
 
 <a name="hd-map" />
 
-
 #### HD Map
 
-**[1]** ZENRIN Co.,Ltd **Highly Efficient HD Map Creation: Accelerating Mapping Process with GPUs** An introduction PPT (2017). [[pdf]](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) **(Very very comprehensive introduction)** :star::star::star::star::star:  
+* [Highly Efficient HD Map Creation: Accelerating Mapping Process with GPUs](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) - An introduction PPT (2017)   
 
 
 <a name="simulation" />
@@ -127,14 +124,17 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="localization" />
 
 #### Localization   
-**[1]** Sampo Kuutti, Saber Fallah, Konstantinos Katsaros, Mehrdad Dianati, Francis Mccullough, Alexandros Mouzakitis **A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications** 10.1109/JIOT.2018.2812300 (2017). [[pdf]](https://core.ac.uk/download/pdf/151395482.pdf) **(Very comprehensive survey)** :star::star::star::star::star:  
 
-**[2]** Guillaume Bresson, Zayed Alsayed, Li Yu, Sébastien Glaser **Simultaneous localization and mapping: A survey of current trends in autonomous driving** 10.1109/TIV.2017.2749181 (2017). [[pdf]](https://hal.archives-ouvertes.fr/hal-01615897/file/2017-simultaneous_localization_and_mapping_a_survey_of_current_trends_in_autonomous_driving.pdf) **(Very comprehensive survey)** :star::star::star::star::star: 
-
-
-* [Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes](https://arxiv.org/abs/1711.05805) - Present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes by sensor fusion.
+* [A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications](https://core.ac.uk/download/pdf/151395482.pdf) - JIOT 2017 
+* [Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes](https://arxiv.org/abs/1711.05805) - ICRA 2018  
 * [Map-Based Precision Vehicle Localization in Urban Environments](http://www.roboticsproceedings.org/rss03/p16.pdf) - 
 * [Robust Vehicle Localization in Urban Environments Using Probabilistic Maps](http://driving.stanford.edu/papers/ICRA2010.pdf) -
+
+###### SLAM
+* [Simultaneous localization and mapping: A survey of current trends in autonomous driving](https://hal.archives-ouvertes.fr/hal-01615897/file/2017-simultaneous_localization_and_mapping_a_survey_of_current_trends_in_autonomous_driving.pdf) - 2017
+* [Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age]() - 2016  
+* [A critique of current developments in simultaneous localization and mapping]() - 2016  
+
 
 <a name="perception" />
 
@@ -142,60 +142,69 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 ###### Survey 
 
-* [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf) - State-of-the-art survey on computer vision-related problems datasets and methods for self-driving cars.
+* [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf) - CVPR 2017
 
 ###### Object Detection
-* [Object Detection in 20 Years: A Survey](#) - 2019
-* [Object Detection With Deep Learning: A Review](#) - 
-* [50 Years of object recognition: Directions forward](#) - 
-* [Deep Learning for Generic Object Detection: A Survey](#) - 
+
+* [Object Detection in 20 Years: A Survey](https://arxiv.org/abs/1905.05055) - CVPR 2019
+* [Object Detection With Deep Learning: A Review](https://arxiv.org/abs/1807.05511) - CVPR 2018
+* [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/abs/1809.02165) - CVPR 2018
+* [50 Years of object recognition: Directions forward](https://www.sciencedirect.com/science/article/abs/pii/S107731421300091X) - 2013
+
+###### 3D Object Detection
+
+* [3D Object Detection for Autonomous Driving: A Survey](https://arxiv.org/abs/2106.10823) - CVPR 2021
 
 ###### Object Tracking
-**[1]** Wenhan Luo, Junliang Xing, Anton Milan, Xiaoqin Zhang, Wei Liu, Xiaowei Zhao, Tae-Kyun Kim **Multiple Object Tracking: A Literature Review**  arXiv:1409.7618v4 (2017). [[pdf]](https://arxiv.org/pdf/1409.7618.pdf) **(Very comprehensive survey)** :star::star::star::star::star:  
+
+* [Multiple Object Tracking: A Literature Review](https://arxiv.org/pdf/1409.7618.pdf) - CVPR 2014
 
 
 ###### Lane Detection 
 * [Recent progress in road and lane detection: a survey](#) - 
 
 ###### Data Fusion
-* [Multisensor data fusion: A review of the state-of-the-art]()
-* [A Review of Data Fusion Techniques]()
-* [A COMPREHENSIVE REVIEW OF THE MULTI-SENSOR DATA FUSION ARCHITECTURES]()
-* [A Survey of Multisensor Fusion Techniques, Architectures and Methodologies]()
+
+* [Multisensor data fusion: A review of the state-of-the-art](#)
+* [A Review of Data Fusion Techniques](#)
+* [A COMPREHENSIVE REVIEW OF THE MULTI-SENSOR DATA FUSION ARCHITECTURES](#)
+* [A Survey of Multisensor Fusion Techniques, Architectures and Methodologies](#)
 
 ###### Data Fusion
+
 * [multimodal perception](https://boschresearch.github.io/multimodalperception/)
 
 <a name="prediction" />
 
 #### Prediction
 
-**[1]** Florin Leon, Marius Gavrilescu. **A Review of Tracking, Prediction and Decision Making Methods for Autonomous Driving**  arXiv:1909.07707v1 (2019). [[pdf]](https://arxiv.org/pdf/1909.07707.pdf) **(Very very comprehensive review)** :star::star::star::star::star:  
-
+* [A Review of Tracking, Prediction and Decision Making Methods for Autonomous Driving](https://arxiv.org/pdf/1909.07707.pdf) - LG 2019  
 
 <a name="planning" />
 
 #### Planning
+
 * [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/abs/1604.07446) - A Survey.
 * [A Review of Motion Planning Techniques for Automated Vehicles](#) - 
-
 * [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/abs/1812.03079) - Waymo's paper about how to train a policy for autonomous driving via imitation learning that is robust enough to drive a real vehicle.
-
 * [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048) - A real-time motion planning system based on the Baidu Apollo (open source) autonomous driving platform.
 
 <a name="control" />
 
 #### Control
-* [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](#) - A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles.
+
+* [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/abs/1604.07446) - Robotics 2016
 
 <a name="end2end" />
 
 #### End-to-End
+
 * [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316) - 2016 NVIDIA
 
 <a name="misc" />
 
 #### Misc
+
 * [An Introduction to LIDAR](https://news.voyage.auto/an-introduction-to-lidar-the-key-self-driving-car-sensor-a7e405590cff) - Awesome introduction by [Voyage](http://voyage.auto/) about the key sensor of self-driving cars.
 * [Learning a Driving Simulator](https://arxiv.org/abs/1608.01230) - [comma.ai](http://comma.ai/)'s approach for self-driving cars is based on an agent that learns to clone driver behaviors and plans maneuvers by simulating future events in the road. This paper investigates variational autoencoders with classical and learned cost functions using generative adversarial networks for embedding road frames. A transition model is learned in the embedded space using action conditioned Recurrent Neural Networks (RNNs). 
 * [16 Questions About Self-Driving Cars](http://a16z.com/2017/01/06/selfdriving-cars-frank-chen/) - [a16z](http://a16z.com/)'s [Frank Chen](https://twitter.com/withfries2) goes over the 16 most commonly asked questions, *technical* and *non-technical*, about self-driving cars.
@@ -362,5 +371,3 @@ If I have seen further it is by standing on ye sholders of Giants.
 * **South Korea** -
 * **Japan** -
 * **Europe** -
-
-
