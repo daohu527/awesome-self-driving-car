@@ -21,7 +21,7 @@ A curated list of all awesome things related to self-driving car.
   - [Planning](#planning)
   - [Control](#control)
   - [End-to-End](#end2end)
-  - [Misc](#misc)  
+  - [Misc](#misc)
 - [Datasets & Benchmarks](#datasets)
 - [Algorithms](#algorithms)
   - [Overview](#algorithms_overview)
@@ -36,13 +36,13 @@ A curated list of all awesome things related to self-driving car.
   - [End-to-End](#algorithms_end2end)
   - [Misc](#algorithms_misc)
 - [Systems](#systems)
-  - [RTOS](#rtos)  
+  - [RTOS](#rtos)
 - [Cloud service](#cloud_service)
   - [Simulation Service](#simulation_service)
   - [HD Map Service](#hd_map_service)
   - [Data Service](#data_service)
   - [Monitor Service](#monitor_service)
-  - [OTA](#ota)  
+  - [OTA](#ota)
 - [Hardware](#hardware)
   - [Computing Unit](#computing-unit)
   - [sensors](#sensors)
@@ -52,8 +52,8 @@ A curated list of all awesome things related to self-driving car.
     - [RADAR](#radar)
     - [Ultrasonic Sensor](#ultrasonic-sensor)
   - [CAN card](#can_card)
-  - [Drive by wire](#drive-by-wire) 
-  - [V2X](#v2x)  
+  - [Drive by wire](#drive-by-wire)
+  - [V2X](#v2x)
   - [HMI Device](#hmi-device)
   - [Black Box](#black-box)
 - [Big Players](#big-players)
@@ -61,8 +61,8 @@ A curated list of all awesome things related to self-driving car.
 
 
 ## Autonomous driving technology stack
-First, let's look at the technology stack for autonomous driving. In order to understand the full stack of autonomous driving. After that, you can learn the corresponding skill tree.  
-![technology stack](technology_stack.png)  
+First, let's look at the technology stack for autonomous driving. In order to understand the full stack of autonomous driving. After that, you can learn the corresponding skill tree.
+![technology stack](technology_stack.png)
 
 
 <a name="opensource" />
@@ -104,17 +104,17 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Overview
 
-* [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](https://arxiv.org/pdf/1906.05113.pdf) - 2020  
+* [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](https://arxiv.org/pdf/1906.05113.pdf) - 2020
 * [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/pdf/1910.07738.pdf) - 2020
 * [Self-Driving Cars: A Survey](https://arxiv.org/pdf/1901.04407.pdf) - 2019
 * [Towards Fully Autonomous Driving: Systems and Algorithms](https://www.ri.cmu.edu/wp-content/uploads/2017/12/levinson-iv2011.pdf) - 2011
- 
+
 
 <a name="hd-map" />
 
 #### HD Map
 
-* [Highly Efficient HD Map Creation: Accelerating Mapping Process with GPUs](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) - An introduction PPT (2017)   
+* [Highly Efficient HD Map Creation: Accelerating Mapping Process with GPUs](http://on-demand.gputechconf.com/gtc/2017/presentation/s7656-shigeyuki-iwata-accelerating-hd-mapping.pdf) - An introduction PPT (2017)
 
 
 <a name="simulation" />
@@ -123,24 +123,24 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 <a name="localization" />
 
-#### Localization   
+#### Localization
 
-* [A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications](https://core.ac.uk/download/pdf/151395482.pdf) - JIOT 2017 
-* [Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes](https://arxiv.org/abs/1711.05805) - ICRA 2018  
-* [Map-Based Precision Vehicle Localization in Urban Environments](http://www.roboticsproceedings.org/rss03/p16.pdf) - 
+* [A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications](https://core.ac.uk/download/pdf/151395482.pdf) - JIOT 2017
+* [Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes](https://arxiv.org/abs/1711.05805) - ICRA 2018
+* [Map-Based Precision Vehicle Localization in Urban Environments](http://www.roboticsproceedings.org/rss03/p16.pdf) -
 * [Robust Vehicle Localization in Urban Environments Using Probabilistic Maps](http://driving.stanford.edu/papers/ICRA2010.pdf) -
 
 ###### SLAM
 * [Simultaneous localization and mapping: A survey of current trends in autonomous driving](https://hal.archives-ouvertes.fr/hal-01615897/file/2017-simultaneous_localization_and_mapping_a_survey_of_current_trends_in_autonomous_driving.pdf) - 2017
-* [Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age]() - 2016  
-* [A critique of current developments in simultaneous localization and mapping]() - 2016  
+* [Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age]() - 2016
+* [A critique of current developments in simultaneous localization and mapping]() - 2016
 
 
 <a name="perception" />
 
 #### Perception
 
-###### Survey 
+###### Survey
 
 * [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf) - CVPR 2017
 * [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges](https://boschresearch.github.io/multimodalperception/) - boschresearch's collection about datasets, detection and segmentation.
@@ -161,8 +161,8 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [Multiple Object Tracking: A Literature Review](https://arxiv.org/pdf/1409.7618.pdf) - CVPR 2014
 
 
-###### Lane Detection 
-* [Recent progress in road and lane detection: a survey](#) - 
+###### Lane Detection
+* [Recent progress in road and lane detection: a survey](#) -
 
 ###### Data Fusion
 
@@ -176,16 +176,17 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Prediction
 
-* [A Review of Tracking, Prediction and Decision Making Methods for Autonomous Driving](https://arxiv.org/pdf/1909.07707.pdf) - LG 2019  
+* [A Review of Tracking, Prediction and Decision Making Methods for Autonomous Driving](https://arxiv.org/pdf/1909.07707.pdf) - LG 2019
 
 <a name="planning" />
 
 #### Planning
 
 * [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/abs/1604.07446) - Robotics 2016
-* [A Review of Motion Planning Techniques for Automated Vehicles](https://ieeexplore.ieee.org/document/7339478) - 2016 
+* [A Review of Motion Planning Techniques for Automated Vehicles](https://ieeexplore.ieee.org/document/7339478) - 2016
 * [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/abs/1812.03079) - Waymo's paper about how to train a policy for autonomous driving via imitation learning that is robust enough to drive a real vehicle.
 * [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048) - A real-time motion planning system based on the Baidu Apollo (open source) autonomous driving platform.
+* [BARK](https://github.com/bark-simulator/bark) - Simulation and benchmarking tool for autonomous driving. Distributed under the MIT license.
 
 <a name="control" />
 
@@ -204,14 +205,14 @@ First, let's look at the technology stack for autonomous driving. In order to un
 #### Misc
 
 * [An Introduction to LIDAR](https://news.voyage.auto/an-introduction-to-lidar-the-key-self-driving-car-sensor-a7e405590cff) - Awesome introduction by [Voyage](http://voyage.auto/) about the key sensor of self-driving cars.
-* [Learning a Driving Simulator](https://arxiv.org/abs/1608.01230) - [comma.ai](http://comma.ai/)'s approach for self-driving cars is based on an agent that learns to clone driver behaviors and plans maneuvers by simulating future events in the road. This paper investigates variational autoencoders with classical and learned cost functions using generative adversarial networks for embedding road frames. A transition model is learned in the embedded space using action conditioned Recurrent Neural Networks (RNNs). 
+* [Learning a Driving Simulator](https://arxiv.org/abs/1608.01230) - [comma.ai](http://comma.ai/)'s approach for self-driving cars is based on an agent that learns to clone driver behaviors and plans maneuvers by simulating future events in the road. This paper investigates variational autoencoders with classical and learned cost functions using generative adversarial networks for embedding road frames. A transition model is learned in the embedded space using action conditioned Recurrent Neural Networks (RNNs).
 * [16 Questions About Self-Driving Cars](http://a16z.com/2017/01/06/selfdriving-cars-frank-chen/) - [a16z](http://a16z.com/)'s [Frank Chen](https://twitter.com/withfries2) goes over the 16 most commonly asked questions, *technical* and *non-technical*, about self-driving cars.
 * [Ways to think about cars](http://ben-evans.com/benedictevans/2015/7/27/ways-to-think-about-cars) - Awesome blog post by [a16z](http://a16z.com/)'s [Benedict Evans](https://twitter.com/BenedictEvans) on electric cars, on-demand car services, and self-driving cars.
 * [The Third Transportation Revolution](https://medium.com/@johnzimmer/the-third-transportation-revolution-27860f05fa91#.ga97y7w86) - Awesome blog post by [John Zimmer](https://twitter.com/johnzimmer) on [Lyft](https://www.lyft.com/)'s vision for self-driving cars. *Spoiler alert*, John predicts self-driving cars will account for the majority of Lyft rides within 5 years. And by 2025, private car ownership will all-but end in major U.S. cities.
 * [Cars and second order consequences](http://ben-evans.com/benedictevans/2017/3/20/cars-and-second-order-consequences) - [Benedict Evans](https://twitter.com/BenedictEvans) on the impact of electric and autonomy on cars and beyond.
 
 
-<a name="datasets" /> 
+<a name="datasets" />
 
 ## Datasets & Benchmarks
 * [KITTI Vision Benchmark Suite [Images]](http://www.cvlibs.net/datasets/kitti/) - Large vision benchmark dataset with [objection detection](http://www.cvlibs.net/datasets/kitti/eval_object.php) evaluation training/testing images and leaderboard on cars and pedestrians.
@@ -221,13 +222,13 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [Washington DC's Lidar Data](https://aws.amazon.com/blogs/publicsector/lidar-data-for-washington-dc-is-available-as-an-aws-public-dataset/) - Lidar point cloud of the entire Washington DC area is made available by the District of Columbia’s Office of the Chief Technology Officer (OCTO).
 * [Apolloscape](http://apolloscape.auto/scene.html#) - Apolloscape provides images with 10x higher resolution and pixel-level annotation. And also Provides multiple levels of scene complexity.
 * [nuScenes](https://www.nuscenes.org/overview) - The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving provided by nuTonomy-Aptiv.
-* [Waymo Open Dataset](https://waymo.com/open/) - The Waymo Open Dataset is comprised of high-resolution sensor data collected by Waymo self-driving cars in a wide variety of conditions. 
+* [Waymo Open Dataset](https://waymo.com/open/) - The Waymo Open Dataset is comprised of high-resolution sensor data collected by Waymo self-driving cars in a wide variety of conditions.
 
 
 #### Traffic Sign
-* [STSD](https://www.cvl.isy.liu.se/research/datasets/traffic-signs-dataset/) - More than 20 000 images with 20% labeled, Contains 3488 traffic signs.  
-* [LISA](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) - 7855 annotations on 6610 frames.  
-* [Tsinghua-Tencent 100K](https://cg.cs.tsinghua.edu.cn/traffic-sign/) - 100000 images containing 30000 traffic-sign instances.  
+* [STSD](https://www.cvl.isy.liu.se/research/datasets/traffic-signs-dataset/) - More than 20 000 images with 20% labeled, Contains 3488 traffic signs.
+* [LISA](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) - 7855 annotations on 6610 frames.
+* [Tsinghua-Tencent 100K](https://cg.cs.tsinghua.edu.cn/traffic-sign/) - 100000 images containing 30000 traffic-sign instances.
 * [German Traffic Sign [Images]](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) - More than 50,000 images and 40 classes of traffic signs.
 
 
@@ -248,33 +249,33 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 ## Cloud service
 
-<a name="simulation_service" /> 
+<a name="simulation_service" />
 
 #### Simulation Service
 * [Udacity's Self-Driving Car Simulator](https://github.com/udacity/self-driving-car-sim) - This simulator is built for Udacity's Self-Driving Car Nanodegree to teach students how to train cars how to navigate road courses using deep learning. It is used for the project of [Behavioral Cloning](https://github.com/udacity/CarND-Behavioral-Cloning-P3).
-* [Microsoft's AirSim](https://github.com/Microsoft/AirSim) - An open-source and cross platform simulator built for drones and other vehicles. AirSim is designed as a platform for AI research to experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles. 
+* [Microsoft's AirSim](https://github.com/Microsoft/AirSim) - An open-source and cross platform simulator built for drones and other vehicles. AirSim is designed as a platform for AI research to experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles.
 * [MIT's Moral Machine](http://moralmachine.mit.edu/) - Moral machine provides a *"platform for 1) building a crowd-sourced picture of human opinion on how machines should make decisions when faced with moral dilemmas, and 2) crowd-sourcing assembly and discussion of potential scenarios of moral consequence"*. If you are a fan of the [trolley problem](https://en.wikipedia.org/wiki/Trolley_problem), you can't miss this.
 * [MIT's Google Self-Driving Car Simulator](https://scratch.mit.edu/projects/108721238/) - Self-driving car simulated completely by visual programming language [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)).
 * [Carla](http://carla.org/) - CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems.
 * [Lgsvl](https://www.lgsvlsimulator.com/) - The LGSVL Simulator is a simulator that facilitates testing and development of autonomous driving software systems. The LGSVL simulator is developed by the Advanced Platform Lab at the LG Electronics America R&D Center, formerly the LG Silicon Valley Lab.
 
 
-<a name="hd_map_service" /> 
+<a name="hd_map_service" />
 
 #### HD Map Service
 
 
-<a name="data_service" /> 
+<a name="data_service" />
 
 #### Data Service
 
 
-<a name="monitor_service" /> 
+<a name="monitor_service" />
 
 #### Monitor Service
 
 
-<a name="ota" /> 
+<a name="ota" />
 
 #### OTA
 
