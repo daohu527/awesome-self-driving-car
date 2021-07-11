@@ -182,8 +182,13 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Planning
 
+###### Survey 
+* [Planning and Decision-Making for Autonomous Vehicles](https://www.annualreviews.org/doi/abs/10.1146/annurev-control-060117-105157) - 2018
 * [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/abs/1604.07446) - Robotics 2016
 * [A Review of Motion Planning Techniques for Automated Vehicles](https://ieeexplore.ieee.org/document/7339478) - 2016 
+* [Real-time motion planning methods for autonomous on-road driving: State-of-the-art and future research directions](#) - 2015
+
+###### Other
 * [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/abs/1812.03079) - Waymo's paper about how to train a policy for autonomous driving via imitation learning that is robust enough to drive a real vehicle.
 * [Baidu Apollo EM Motion Planner](https://arxiv.org/abs/1807.08048) - A real-time motion planning system based on the Baidu Apollo (open source) autonomous driving platform.
 
