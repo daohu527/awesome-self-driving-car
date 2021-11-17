@@ -163,7 +163,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 
 ###### Lane Detection 
-* [Recent progress in road and lane detection: a survey](#https://link.springer.com/article/10.1007/s00138-011-0404-2) - 2014
+* [Recent progress in road and lane detection: a survey](https://link.springer.com/article/10.1007/s00138-011-0404-2) - 2014
 
 ###### Data Fusion
 
