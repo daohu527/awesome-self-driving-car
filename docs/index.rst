@@ -7,6 +7,7 @@ Autonomous driving Papers & Blogs
 =================================
 A curated list of autonomous driving papers and blogs! Last update ``2023/4/28``
 
+email: daohu527@gmail.com
 
 .. toctree::
    :caption: Contents:
