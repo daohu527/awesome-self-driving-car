@@ -66,6 +66,7 @@ Object Detection
 
 
 -  3D Object Detection for Autonomous Driving: A Survey `Papers <https://arxiv.org/abs/2106.10823>`__ - CVPR 2021
+-  A Survey on 3D Object Detection Methods for Autonomous Driving Applications `Papers <http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf>`__ - 2019
 
 Multiple Object Tracking
 
@@ -85,6 +86,12 @@ Data Fusion
 -  A Review of Data Fusion Techniques `Papers <#>`__
 -  A Comprehensive Review of The Multi-sensor Data Fusion Architectures `Papers <#>`__
 -  A Survey of Multisensor Fusion Techniques, Architectures and Methodologies `Papers <#>`__
+
+Point Cloud Semantic Segmentation
+
+
+-  Linking Points With Labels in 3D: A Review of Point Cloud Semantic Segmentation `Papers <https://arxiv.org/abs/1908.08854>`__ - IEEE Geoscience and Remote Sensing 2019
+-  3D Point Cloud Descriptors in Hand-crafted and Deep Learning Age: State-of-the-Art `Papers <https://arxiv.org/abs/1802.02297>`__ - 2018
 
 Prediction
 ^^^^^^^^^^
