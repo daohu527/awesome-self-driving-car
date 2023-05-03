@@ -152,7 +152,30 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 ###### 3D Object Detection
 
-* [3D Object Detection for Autonomous Driving: A Survey](https://arxiv.org/abs/2106.10823) - CVPR 2021
+* [3D Object Detection for Autonomous Driving: A Survey](https://arxiv.org/abs/2106.10823) - 2022
+* [3D object detection for autonomous driving: a review and new outlooks](https://arxiv.org/abs/2206.09474) - 2022
+* [A survey on 3d object detection methods for autonomous driving applications](http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf?ref=https://githubhelp.com) - 2019
+
+* [Deep Learning-based Image 3D Object Detection for Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/10017184/) - 2023
+* [3D Object Detection from Images for Autonomous Driving: A Survey](https://arxiv.org/abs/2202.02980) - 2022
+* [A survey on deep learning based methods and datasets for monocular 3D object detection](https://www.mdpi.com/2079-9292/10/4/517) - 2021
+* [Monocular 3d object detection for autonomous driving](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Chen_Monocular_3D_Object_CVPR_2016_paper.pdf) - 2016
+
+
+* [A survey of robust 3d object detection methods in point clouds](https://arxiv.org/abs/2204.00106) - 2022
+* [Point-cloud based 3D object detection and classification methods for self-driving applications: A survey and taxonomy](https://repositorium.sdum.uminho.pt/bitstream/1822/78006/1/Survey_Final.pdf) - 2021
+* [A comprehensive survey of LIDAR-based 3D object detection methods with deep learning for autonomous driving]() -2021
+* [Deep 3D object detection networks using LiDAR data: A review]() - 2020
+* [Deep learning for 3d point clouds: A survey](https://arxiv.org/pdf/1912.12033.pdf) - 2020
+
+* [Multi-modal 3d object detection in autonomous driving: a survey](https://arxiv.org/abs/2106.12735) - 2021
+
+
+* [3D object recognition and classification: a systematic literature review]() - 2019
+* [Deep multi-modal object detection and semantic segmentation for autonomous driving: Datasets, methods, and challenges](https://arxiv.org/pdf/1902.07830.pdf) - 2020
+
+* [A review and comparative study on probabilistic object detection in autonomous driving](https://arxiv.org/pdf/2011.10671.pdf) - 2021
+
 
 ###### Object Tracking
 
