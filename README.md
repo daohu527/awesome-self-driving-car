@@ -179,7 +179,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 ###### Object Tracking
 
 * [Multiple Object Tracking: A Literature Review](https://arxiv.org/pdf/1409.7618.pdf) - CVPR 2014
-* [DEEP LEARNING IN VIDEO MULTI-OBJECT TRACKING: A SURVEY](https://arxiv.org/abs/1907.12740) - Neurocomputing 2019
+* [Deep Learning in Video Multi-Object Tracking: A Survey](https://arxiv.org/abs/1907.12740) - Neurocomputing 2019
 
 
 ###### Lane Detection
