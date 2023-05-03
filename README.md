@@ -141,7 +141,6 @@ First, let's look at the technology stack for autonomous driving. In order to un
 ###### Survey
 
 * [Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art](https://arxiv.org/pdf/1704.05519.pdf) - CVPR 2017
-* [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges](https://boschresearch.github.io/multimodalperception/) - boschresearch's collection about datasets, detection and segmentation.
 
 ###### Object Detection
 
@@ -168,11 +167,11 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [Deep 3D object detection networks using LiDAR data: A review]() - 2020
 * [Deep learning for 3d point clouds: A survey](https://arxiv.org/pdf/1912.12033.pdf) - 2020
 
+* [Deep multi-modal object detection and semantic segmentation for autonomous driving: Datasets, methods, and challenges](https://arxiv.org/pdf/1902.07830.pdf) - 2020
 * [Multi-modal 3d object detection in autonomous driving: a survey](https://arxiv.org/abs/2106.12735) - 2021
 
 
 * [3D object recognition and classification: a systematic literature review]() - 2019
-* [Deep multi-modal object detection and semantic segmentation for autonomous driving: Datasets, methods, and challenges](https://arxiv.org/pdf/1902.07830.pdf) - 2020
 
 * [A review and comparative study on probabilistic object detection in autonomous driving](https://arxiv.org/pdf/2011.10671.pdf) - 2021
 
