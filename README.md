@@ -152,7 +152,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 ###### 3D Object Detection
 
 * [3D Object Detection for Autonomous Driving: A Survey](https://arxiv.org/abs/2106.10823) - 2022
-* [3D object detection for autonomous driving: a review and new outlooks](https://arxiv.org/abs/2206.09474) - 2022
+* [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2206.09474) - 2022
 * [A survey on 3d object detection methods for autonomous driving applications](http://wrap.warwick.ac.uk/114314/1/WRAP-survey-3D-object-detection-methods-autonomous-driving-applications-Arnold-2019.pdf?ref=https://githubhelp.com) - 2019
 
 * [Deep Learning-based Image 3D Object Detection for Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/10017184/) - 2023
