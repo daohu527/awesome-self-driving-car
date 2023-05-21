@@ -22,7 +22,7 @@ A curated list of all awesome things related to self-driving car.
   - [Control](#control)
   - [End-to-End](#end2end)
   - [Misc](#misc)
-- [Datasets & Benchmarks](#datasets)
+- [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Algorithms](#algorithms)
   - [Overview](#algorithms_overview)
   - [HD Map](#algorithms_hd-map)
@@ -239,7 +239,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 <a name="datasets" />
 
-## Datasets & Benchmarks
+## Datasets and Benchmarks
 * [KITTI Vision Benchmark Suite [Images]](http://www.cvlibs.net/datasets/kitti/) - Large vision benchmark dataset with [objection detection](http://www.cvlibs.net/datasets/kitti/eval_object.php) evaluation training/testing images and leaderboard on cars and pedestrians.
 * [Cityscapes](https://www.cityscapes-dataset.com/) - Semantic, instance-wise, dense pixel annotations of 30 classes.
 * [comma.ai's Driving Dataset [Videos]](https://github.com/commaai/research) - Seven and a quarter hours (~ 80 GB) of largely highway driving. With this dataset, comma.ai's founder [George Hotz](https://twitter.com/realgeorgehotz) trained a self-driving car [all by himself](https://www.bloomberg.com/features/2015-george-hotz-self-driving-car/).
@@ -255,6 +255,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [LISA](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) - 7855 annotations on 6610 frames.
 * [Tsinghua-Tencent 100K](https://cg.cs.tsinghua.edu.cn/traffic-sign/) - 100000 images containing 30000 traffic-sign instances.
 * [German Traffic Sign [Images]](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) - More than 50,000 images and 40 classes of traffic signs.
+* [Swedish Traffic Sign](https://www.cvl.isy.liu.se/research/datasets/traffic-signs-dataset/) - A dataset with traffic signs recorded on 350 km of Swedish roads, consisting of 20 000 images with 20% of annotations.
 
 
 <a name="algorithms" />
