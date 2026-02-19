@@ -73,6 +73,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [apollo](http://apollo.auto/) - Apollo is an open source autopilot platform that contains almost everything. Including hardware, systems, vehicle platforms, cloud services, etc. You can quickly build a self-driving system of your own by Apollo.
 * [autoware](https://www.autoware.ai/) - The original Autoware project built on ROS 1. Launched as a research and development platform for autonomous driving technology.
 * [openpilot](https://comma.ai/) - Openpilot is an open source driver agent. Use the iphone to control the car, which provides adaptive cruise control (ACC) and lane keeping assist (LKAS).
+* [NVIDIA Alpamayo (AlpaSim)](https://github.com/NVlabs/alpamayo) - (New 2026) NVIDIA's open-source family of reasoning-based AI models and simulation tools for L4 development.
 
 
 <a name="library" />
@@ -175,6 +176,12 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 * [A review and comparative study on probabilistic object detection in autonomous driving](https://arxiv.org/pdf/2011.10671.pdf) - 2021
 
+- BEVFormer - 2022. Benchmark for Bird's-Eye-View perception.
+
+- UniOcc - (2025) Multi-modal 3D Occupancy Prediction.
+
+- TPVFormer - Tri-Perspective View for efficient 3D perception.
+
 
 ###### Object Tracking
 
@@ -225,6 +232,12 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 * [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316) - 2016 NVIDIA
 
+- UniAD: Planning-oriented Autonomous Driving - (CVPR 2023 Best Paper) The gold standard for integrated end-to-end stacks.
+
+- VAD: Vectorized Autonomous Driving - Fast and vectorized end-to-end planning.
+
+- Alpamayo 1 (NVIDIA) - (2026) The first chain-of-thought reasoning VLA model for AV.
+
 <a name="misc" />
 
 #### Misc
@@ -248,6 +261,8 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [Apolloscape](http://apolloscape.auto/scene.html#) - Apolloscape provides images with 10x higher resolution and pixel-level annotation. And also Provides multiple levels of scene complexity.
 * [nuScenes](https://www.nuscenes.org/overview) - The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving provided by nuTonomy-Aptiv.
 * [Waymo Open Dataset](https://waymo.com/open/) - The Waymo Open Dataset is comprised of high-resolution sensor data collected by Waymo self-driving cars in a wide variety of conditions.
+- DriveLMM-o1 - (2025) First dataset for step-by-step reasoning in driving scenarios.
+- [RoboSense Dataset](https://github.com/suhaisheng/RoboSense) - (2024) First large-scale dataset for low-speed L4 unmanned functional vehicles.
 
 
 #### Traffic Sign
@@ -315,12 +330,23 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Computing Unit
 
+- NVIDIA Orin / Thor: Industry leading SoCs (254 TOPS / 2,000 TOPS).
+
+- Horizon Journey 6: Next-gen Chinese domestic high-performance AV chip.
+
+- Qualcomm Snapdragon Ride: High-efficiency platforms for L2++ to L4.
+
+- TI TDA5-Q1: (2026) Texas Instruments' new scalable SoC for edge AI in AV.
 
 <a name="sensors" />
 
 #### Sensors
 
+- Camera: Sony IMX728 (Next-gen HDR & LED Flicker Mitigation).
 
+- LiDAR: Hesai AT128, RoboSense M2, Seyond (formerly Innovusion) Falcon.
+
+- 4D RADAR: Arbe, Continental ARS540, TI AWR2188 (8x8 4D Imaging Radar).
 
 <a name="gps-imu" />
 

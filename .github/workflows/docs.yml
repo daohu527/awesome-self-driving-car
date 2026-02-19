@@ -1,0 +1,63 @@
+name: Docs CI
+
+on:
+  pull_request:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/docs/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install docs requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r docs/requirements.txt
+      - name: Build HTML docs
+        run: |
+          mkdir -p docs/_build
+          sphinx-build -b html docs docs/_build/html
+      - name: Linkcheck
+        run: |
+          sphinx-build -b linkcheck docs docs/_build/linkcheck || true
+      - name: Generate README sections
+        run: |
+          python scripts/generate_readme.py --section compute > README_generated_compute.md
+          python scripts/generate_readme.py --section datasets > README_generated_datasets.md
+      - name: Check README consistency
+        run: |
+          # compare generated compute section with README markers
+          awk '/<!-- GENERATED:compute:start -->/,/<!-- GENERATED:compute:end -->/' README.md > README_current_compute_raw.md || true
+          sed '1d;$d' README_current_compute_raw.md > README_current_compute.md || true
+          diff -u README_current_compute.md README_generated_compute.md || (echo 'Compute section out of sync. Run scripts/generate_readme.py and update README.' && exit 1)
+          # compare generated datasets section (if used)
+          awk '/<!-- GENERATED:datasets:start -->/,/<!-- GENERATED:datasets:end -->/' README.md > README_current_datasets_raw.md || true
+          sed '1d;$d' README_current_datasets_raw.md > README_current_datasets.md || true
+          diff -u README_current_datasets.md README_generated_datasets.md || echo 'Datasets section out of sync (if present) — verify README.'
+      - name: Sync docs from README (generate only)
+        run: |
+          python scripts/sync_docs_from_readme.py --out-dir generated_docs
+      - name: Verify docs vs README-derived
+        run: |
+          set -e
+          for f in opensource datasets papers; do
+            if [ -f docs/$f.md ]; then
+              if ! diff -u docs/$f.md generated_docs/$f.md >/dev/null 2>&1; then
+                echo "docs/$f.md differs from README-derived generated_docs/$f.md; update docs or README to match." && exit 1
+              fi
+            else
+              echo "docs/$f.md missing; expected generated_docs/$f.md to be committed" && exit 1
+            fi
+          done
