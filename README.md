@@ -354,6 +354,8 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### V2X
 
+* [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring and identity verification for AI agent wallets on Solana. Enables V2X communication agents to verify counterparty agent identity before processing x402 micropayments. Free MCP tools: `score_agent`, `preflight_check`. Paid: `get_trust_receipt` via x402 HTTP micropayment.
+
 <a name="hmi-device" />
 
 #### HMI Device
