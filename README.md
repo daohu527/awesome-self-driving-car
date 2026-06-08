@@ -300,6 +300,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 
 #### Monitor Service
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring for autonomous vehicle simulation agents. Verify agent identity before accessing premium labeled dataset APIs or multi-agent AV testing environments via x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 <a name="ota" />
 
