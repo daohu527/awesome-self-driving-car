@@ -294,6 +294,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 <a name="data_service" />
 
 #### Data Service
+* [Superhighway](https://superhighway.walls.sh/guides/automotive-research-agent) - Build a Python agent that researches automotive markets, OEM strategies, EV adoption metrics, and charging infrastructure using live web search. Pay-per-call with USDC via x402.
 
 
 <a name="monitor_service" />
