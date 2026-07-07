@@ -83,6 +83,7 @@ First, let's look at the technology stack for autonomous driving. In order to un
 * [Point Cloud Library](http://pointclouds.org/) - Point Cloud Library (PCL) is a standalone, large open project for 2D / 3D imagery and point cloud processing. Widely used to process laser point cloud data.
 * [TensorFlow](https://www.tensorflow.org/) - TensorFlow is an open source software library for numerical computation using data flow graphs. Used for automatic driving perception and prediction.
 * [ompl](https://ompl.kavrakilab.org/) - The Open Motion Planning Library.
+* [FusionCore](https://github.com/manankharwar/fusioncore) - A ROS 2 UKF fusing GPS, IMU, and wheel odometry with adaptive noise estimation and GPS outlier rejection for robust outdoor localization.
 
 
 <a name="courses" />
