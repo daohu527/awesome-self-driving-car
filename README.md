@@ -4,59 +4,7 @@
 ## Introduction
 A curated list of all awesome things related to self-driving car.
 
-## AI-friendly project overview
-This repository is a knowledge base, not an application codebase. Its main value is to organize the autonomous-driving landscape into a navigable map for humans and AI systems.
-
-### What the project is
-- A curated index of open-source projects, research papers, courses, datasets, algorithms, system references, cloud services, and hardware.
-- Organized around the standard autonomous-driving stack: perception, localization, prediction, planning, control, simulation, and end-to-end driving.
-- Intended as a fast starting point for learning, research, and agent-style exploration.
-
-### How to read it efficiently
-1. Start from the technology stack diagram near the top of this document.
-2. Follow the stack in order: localization + mapping -> perception -> prediction -> planning -> control.
-3. Use the open-source section for practical implementations and the papers section for deeper theory.
-4. Treat dataset, algorithm, and system references as supporting material rather than the primary learning path.
-
-### AI-oriented knowledge map
-- Perception: camera, LiDAR, radar, multi-sensor fusion, object detection, tracking, lane detection, semantic segmentation.
-- Localization and mapping: GPS/IMU, SLAM, HD map, calibration, map matching.
-- Prediction: behavior forecasting, trajectory prediction, intent estimation.
-- Planning: route planning, behavior planning, motion planning, safety constraints.
-- Control: longitudinal/lateral control, vehicle dynamics, path tracking.
-- Simulation and data generation: synthetic data, scenario generation, testing, validation.
-- Systems and infrastructure: RTOS, cloud services, OTA, monitoring, V2X, black-box logging.
-
-### Practical reading order for a new agent
-- Overview -> courses -> open-source fullstack -> core algorithms -> datasets -> domain papers -> system/hardware references.
-- For a real implementation task, prioritize fullstack frameworks (Apollo, Autoware, openpilot) before diving into niche papers.
-- For theory-heavy tasks, start from surveys and then read the most relevant detailed paper in the target subdomain.
-
-### Maintenance guidance
-If this repository continues to grow, keep it easy for humans and AI agents by maintaining a compact taxonomy and a consistent entry format.
-
-- Stable top-level sections are more important than adding many new categories.
-- Each item should ideally have a clear domain, a short description, a year, and a URL.
-- The README should remain a navigation page; detailed metadata can live in dedicated docs or generated catalogs later.
-- Periodic link checks and deduplication are necessary to keep the list trustworthy.
-
-### Must-maintain content
-The most valuable content is not every raw link; it is the curated knowledge map that tells readers what matters and where it belongs.
-
-Keep these high-priority areas current:
-- The technology stack diagram and its interpretation
-- Open-source fullstack systems (Apollo, Autoware, openpilot)
-- Core survey papers for perception, localization, planning, control
-- Course recommendations for learning path onboarding
-- Domain-specific references for the most important subfields
-- System and hardware references that define deployment realities
-
-These are the sections an AI agent should rely on when selecting relevant references for a task. They are more important than adding a long tail of secondary links.
-
-### Structured metadata for AI use
-To keep the project both human-readable and machine-parseable, a curated metadata catalog is recommended.
-
-The repository now includes a lightweight catalog for the most important references. This is intended to be the high-value source for AI-assisted sorting, filtering, and recommendation.
+This repository is a structured knowledge base for autonomous driving research and engineering. It helps readers and AI systems navigate the stack from perception and localization to prediction, planning, control, simulation, and deployment.
 
 ## Table of Contents
 - [Opensource code](#opensource)
