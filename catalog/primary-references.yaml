@@ -1,0 +1,135 @@
+version: 1
+project: awesome-self-driving-car
+last_updated: 2026-08-12
+description: Curated high-priority references for autonomous driving learning and AI-assisted exploration.
+
+references:
+  - title: Apollo
+    category: opensource
+    domain: fullstack
+    type: platform
+    url: http://apollo.auto/
+    summary: Open-source autonomous driving platform covering perception, planning, control, and system integration.
+    tags: [fullstack, planning, perception, control]
+    priority: critical
+    year: 2024
+
+  - title: Autoware
+    category: opensource
+    domain: fullstack
+    type: platform
+    url: https://www.autoware.ai/
+    summary: Open-source autonomous driving stack built around ROS and research-driven system development.
+    tags: [fullstack, ros, localization, planning]
+    priority: critical
+    year: 2024
+
+  - title: openpilot
+    category: opensource
+    domain: fullstack
+    type: system
+    url: https://comma.ai/
+    summary: Driver-assist system focused on driver-agent behavior and practical onboard autonomy.
+    tags: [fullstack, control, perception]
+    priority: critical
+    year: 2024
+
+  - title: Udacity Self-Driving Car Nanodegree
+    category: course
+    domain: education
+    type: curriculum
+    url: https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
+    summary: Structured learning track covering vision, sensor fusion, localization, planning, and systems.
+    tags: [education, perception, localization, planning]
+    priority: high
+    year: 2024
+
+  - title: MIT 6.S094 Deep Learning for Self-Driving Cars
+    category: course
+    domain: education
+    type: lecture
+    url: http://selfdrivingcars.mit.edu/
+    summary: Practical deep learning course focused on autonomous driving applications.
+    tags: [education, deep-learning, perception]
+    priority: high
+    year: 2024
+
+  - title: A Survey of Autonomous Driving: Common Practices and Emerging Technologies
+    category: paper
+    domain: overview
+    type: survey
+    url: https://arxiv.org/pdf/1906.05113.pdf
+    summary: High-level overview of autonomous driving system design, methods, and emerging trends.
+    tags: [survey, overview, system]
+    priority: critical
+    year: 2020
+
+  - title: A Survey of Deep Learning Techniques for Autonomous Driving
+    category: paper
+    domain: perception
+    type: survey
+    url: https://arxiv.org/pdf/1910.07738.pdf
+    summary: Survey of deep learning methods across perception tasks in autonomous driving.
+    tags: [survey, deep-learning, perception]
+    priority: high
+    year: 2020
+
+  - title: A survey of the state-of-the-art localization techniques and their potentials for autonomous vehicle applications
+    category: paper
+    domain: localization
+    type: survey
+    url: https://core.ac.uk/download/pdf/151395482.pdf
+    summary: Review of localization methods and their application to autonomous vehicles.
+    tags: [survey, localization, mapping]
+    priority: high
+    year: 2017
+
+  - title: A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles
+    category: paper
+    domain: planning
+    type: survey
+    url: https://arxiv.org/abs/1604.07446
+    summary: Broad survey of urban autonomous vehicle planning and control methods.
+    tags: [survey, planning, control]
+    priority: high
+    year: 2016
+
+  - title: 3D Object Detection for Autonomous Driving: A Survey
+    category: paper
+    domain: perception
+    type: survey
+    url: https://arxiv.org/abs/2106.10823
+    summary: Survey of 3D perception methods for autonomous driving with a focus on driving scenes.
+    tags: [survey, 3d-detection, perception]
+    priority: high
+    year: 2022
+
+  - title: ROS
+    category: library
+    domain: system
+    type: middleware
+    url: http://www.ros.org/
+    summary: Middleware ecosystem widely used for robotics and autonomous vehicle software integration.
+    tags: [middleware, robotics, system]
+    priority: high
+    year: 2024
+
+  - title: OpenCV
+    category: library
+    domain: perception
+    type: library
+    url: https://opencv.org/
+    summary: Core vision library for image processing and camera-based perception.
+    tags: [vision, perception, computer-vision]
+    priority: high
+    year: 2024
+
+  - title: Point Cloud Library
+    category: library
+    domain: perception
+    type: library
+    url: http://pointclouds.org/
+    summary: Toolkit for point cloud processing used in LiDAR-based 3D perception.
+    tags: [lidar, perception, point-cloud]
+    priority: high
+    year: 2024

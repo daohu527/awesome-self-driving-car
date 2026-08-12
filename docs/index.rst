@@ -7,6 +7,8 @@ Autonomous driving Papers & Blogs
 =================================
 A curated list of autonomous driving papers and blogs! Last update ``2023/4/28``
 
+This project acts as a structured knowledge base for autonomous driving research and engineering. It is organized around the standard stack: perception, localization, planning, control, simulation, and system infrastructure. For AI-assisted reading, start with the overview, then study the relevant domain before jumping into implementation or paper-level details.
+
 email: daohu527@gmail.com
 
 .. toctree::

@@ -1,1 +1,2 @@
-myst_parser==0.17.2
+Sphinx>=5.0,<8
+myst_parser>=2.0.0
